@@ -7,7 +7,7 @@ The algorithm uses simple libraries and makes full use of the point cloud data s
 
 Below it's the output of a sample dataset taken from the city of amsterdam:
 
-![](media/examples/AHN_trees.PNG)
+![](media/examples/output_sample.png)
 ---
 
 
@@ -93,6 +93,7 @@ Alternatively, as a way of documenting the intended usage, you could add a `scri
 
 You can explain roughly how the code works, what the main components are, how certain crucial steps are performed...
 
+![](media/examples/Internship_workflow.png)
 ---
 ## Acknowledgements
 
