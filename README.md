@@ -7,7 +7,7 @@ The algorithm uses simple libraries and makes full use of the point cloud data s
 
 Below it's the output of a sample dataset taken from the city of amsterdam:
 
-![](media/examples/output_sample.png)
+![](media/examples/Output_sample.png)
 ---
 
 
