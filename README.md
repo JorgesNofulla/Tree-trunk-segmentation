@@ -13,34 +13,18 @@ Below it's the output of a sample dataset taken from the city of amsterdam:
 
 ## Project Folder Structure
 
-Explain briefly what's where so people can find their way around. For example:
+The repository contains the full codes used and a sample data that can be used to test the code.
 
-There are the following folders in the structure:
 
 1) [`resources`](./resources): Random nice resources, e.g. [`useful links`](./resources/README.md)
 1) [`src`](./src): Folder for all source files specific to this project
-1) [`scripts`](./scripts): Folder with example scripts for performing different tasks (could serve as usage documentation)
+1) [`scripts`](./scripts): Folder with the full scripts of the tree trunks delineation code.
 1) [`tests`](./tests) Test example
-1) [`media`](./media): Folder containing media files (icons, video)
+1) [`Sample_test`](Sample_test): This is a small las file that can be used to test the code and get and output.
 1) ...
 
-OR
 
-Or use something like `tree` to include the overall structure with preferred level of detail (`-L 2` or `-d` or `-a`...)
-```buildoutcfg
-├── media --> you can still add comments and descriptions in this tree
-│   └── examples
-├── resources --> a lot of useful links here
-├── scripts
-├── src --
-└── tests
 ```
-
-
-
-If you are lacking ideas on how to structure your code at the first place, take a look at [`CookieCutter`](https://drivendata.github.io/cookiecutter-data-science/)
-
----
 
 
 ## Installation
@@ -69,37 +53,15 @@ To train...
 $ python train.py --some-importang-argument
 ```
 
-If there are too many command line arguments, you can add a nice table with explanation (thanks, [Diana Epureano](https://www.linkedin.com/in/diana-epureanu-235104153/)!)
-
-|Argument | Type or Action | Description | Default |
-|---|:---:|:---:|:---:|
-|`--batch_size`| int| `Batch size.`|  32|
-|`--device`| str| `Training device, cpu or cuda:0.`| `cpu`|
-|`--early-stopping`|  `store_true`| `Early stopping for training of sparse transformer.`| True|
-|`--epochs`| int| `Number of epochs.`| 21|
-|`--input_size`|  int| `Input size for model, i.e. the concatenation length of te, se and target.`| 99|
-|`--loss`|  str|  `Type of loss to be used during training. Options: RMSE, MAE.`|`RMSE`|
-|`--lr`|  float| `Learning rate.`| 1e-3|
-|`--train_ratio`|  float| `Percentage of the training set.`| 0.7|
-|...|...|...|...|
-
-
-Alternatively, as a way of documenting the intended usage, you could add a `scripts` folder with a number of scripts for setting up the environment, performing training in different modes or different tasks, evaluation, etc (thanks, [Tom Lotze](https://www.linkedin.com/in/tom-lotze/)!)
-
----
-
-
 ## How it works
 
-You can explain roughly how the code works, what the main components are, how certain crucial steps are performed...
+Below is the simplified workflow that shows how the algorithm works and what logic it is built on:
 
 ![](media/examples/Internship_workflow.png)
 ---
 ## Acknowledgements
 
-
-Don't forget to acknowledge any work by others that you have used for your project. Add links and check whether the authors have explicitly stated citation preference for using the DOI or citing a paper or so. 
-For example:
+I would like to express my sincere appreciation to my two internship supervisors, Daan Bloembergen and Nico de Graaff, as well as my university professor, Sander Oude Elberink, for their invaluable guidance and support throughout the development of this project.Their extensive knowledge and experience in the field provided helped me to better understand the complexities of the project and achieve a successful outcome.
 
 Our code uses [YOLOv5](https://github.com/ultralytics/yolov5) [![DOI](https://zenodo.org/badge/264818686.svg)](https://zenodo.org/badge/latestdoi/264818686)
 
