@@ -21,18 +21,9 @@ The repository contains the full codes used and a sample data that can be used t
 1) [`scripts`](./scripts): Folder with the full scripts of the tree trunks delineation code.
 1) [`tests`](./tests) Test example
 1) [`Sample_test`](Sample_test): This is a small las file that can be used to test the code and get and output.
-1) ...
 
-
-```
-
-
+---
 ## Installation
-
-Explain how to set up everything. 
-Let people know if there are weird dependencies - if so feel free to add links to guides and tutorials.
-
-A person should be able to clone this repo, follow your instructions blindly, and still end up with something *fully working*!
 
 1) Clone this repository:
     ```bash
@@ -42,16 +33,17 @@ A person should be able to clone this repo, follow your instructions blindly, an
 ---
 
 
-## Usage
+## Parameters used in the code
 
-Explain example usage, possible arguments, etc. E.g.:
+1. The radius of the search spehere for the initial clustering.
+2. The radius of the buffer on which we count the point density in x and y for each point (the parameter used for local maxima calculation).
+3. The size of the search window for local maxima in each cluster.
+4. The delineated trunks radius (visualized trunk).
+5. The minimum eucledian distance that 2 peaks of the same cluster can have (else the peak won't be added).
+6. The size of the small clusters we suspect as outliers (won't be deleted, they will just merge with a nearby big cluster if there is any, else they will be taken as individual clusters)
+7. The minimal cluster size to be allowed as a tree. Deleting every cluster below this value (OPTIONAL!).
 
-To train... 
 
-
-```
-$ python train.py --some-importang-argument
-```
 
 ## How it works
 
@@ -63,5 +55,5 @@ Below is the simplified workflow that shows how the algorithm works and what log
 
 I would like to express my sincere appreciation to my two internship supervisors, Daan Bloembergen and Nico de Graaff, as well as my university professor, Sander Oude Elberink, for their invaluable guidance and support throughout the development of this project.Their extensive knowledge and experience in the field provided helped me to better understand the complexities of the project and achieve a successful outcome.
 
-Our code uses [YOLOv5](https://github.com/ultralytics/yolov5) [![DOI](https://zenodo.org/badge/264818686.svg)](https://zenodo.org/badge/latestdoi/264818686)
+Our first part of the code, which clusters the trees is inspired by [Max-Hess](https://github.com/max-hess/GeometricNetworks) [![DOI](https://zenodo.org/badge/264818686.svg)](https://doi.org/10.5194/egusphere-egu21-4155 )
 
