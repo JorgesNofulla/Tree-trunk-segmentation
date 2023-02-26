@@ -1,4 +1,4 @@
-# Amsterdam Internships - Example README
+# Individual Tree Trunk Segmentation README
 
 Explain in short what this repository is. Mind the target audience.
 No need to go into too much technical details if you expect some people would just use it as end-users 
