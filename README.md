@@ -17,10 +17,11 @@ The repository contains the full codes used and a sample data that can be used t
 
 
 1) [`resources`](./resources): Random nice resources, e.g. [`useful links`](./resources/README.md)
-1) [`src`](./src): Folder for all source files specific to this project
+1) [`media`](./media/examples/): Images used in this repository
 1) [`scripts`](./scripts): Folder with the full scripts of the tree trunks delineation code.
-1) [`tests`](./tests) Test example
 1) [`Sample_test`](Sample_test): This is a small las file that can be used to test the code and get and output.
+
+To be added : The project raport
 
 ---
 ## Installation
