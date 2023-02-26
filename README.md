@@ -7,7 +7,7 @@ The *_How it works_* section below would contain more technical details for curi
 
 If applicable, you can also show an example of the final output.
 
-![](media/examples/emojis.png)
+![](media/examples/AHN_trees.PNG)
 
 ---
 
