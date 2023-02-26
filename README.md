@@ -1,14 +1,13 @@
 # Individual Tree Trunk Segmentation README
+This repository contains the code to segment individual tree trunks out of an lidar point clouds that's already been filtered to contain only tree points.
+The algorithm uses simple libraries and makes full use of the point cloud data structure to ensure speed and efficenty in caclulations.
 
-Explain in short what this repository is. Mind the target audience.
-No need to go into too much technical details if you expect some people would just use it as end-users 
-and don't care about the internals (so focus on what the code really *does*), not how.
-The *_How it works_* section below would contain more technical details for curious people.
-
-If applicable, you can also show an example of the final output.
 
 ![](media/examples/AHN_trees.PNG)
 
+Below it's the output of a sample dataset taken from the city of amsterdam:
+
+![](media/examples/AHN_trees.PNG)
 ---
 
 
@@ -53,18 +52,9 @@ A person should be able to clone this repo, follow your instructions blindly, an
 
 1) Clone this repository:
     ```bash
-    git clone https://github.com/Amsterdam-Internships/InternshipAmsterdamGeneral
+    git clone https://github.com/Amsterdam-Internships/Tree-trunk-segmentation.git
     ```
 
-1) If you are using submodules don't forget to include `--recurse-submodules` to the step above or mention that people can still do it afterwards:
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-1) Install all dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 ---
 
 
