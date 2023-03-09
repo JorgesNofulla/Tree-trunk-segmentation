@@ -57,9 +57,12 @@ Below is the simplified workflow that shows how the algorithm works and what log
 The resulting output is converted into a 2D shapefile for improved visualization when comparing it to the ground truth.
 
 The ground truth:
+
 ![](media/examples/Ground_truth.png)
 
+
 The algorithm output : 
+
 ![](media/examples/Shapefile_output.png)
 
 ---
