@@ -60,7 +60,7 @@ The ground truth:
 ![](media/examples/Ground_truth.png)
 
 The algorithm output : 
-![](media/examples/Shapefile_Output.png)
+![](media/examples/Shapefile_output.png)
 
 ---
 ## Acknowledgements
