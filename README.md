@@ -52,6 +52,17 @@ Below is the simplified workflow that shows how the algorithm works and what log
 
 ![](media/examples/Internship_workflow.png)
 ---
+## Ground Truth vs Code Output
+
+The resulting output is converted into a 2D shapefile for improved visualization when comparing it to the ground truth.
+
+The ground truth:
+![](media/examples/Ground_truth.png)
+
+The algorithm output : 
+![](media/examples/Shapefile_Output.png)
+
+---
 ## Acknowledgements
 
 I would like to express my sincere appreciation to my two internship supervisors, Daan Bloembergen and Nico de Graaff, as well as my university professor, Sander Oude Elberink, for their invaluable guidance and support throughout the development of this project.Their extensive knowledge and experience in the field provided helped me to better understand the complexities of the project and achieve a successful outcome.
