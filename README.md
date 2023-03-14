@@ -66,6 +66,17 @@ The algorithm output :
 ![](media/examples/Shapefile_output.png)
 
 ---
+## Accuracy assesment and Limitations
+
+The method works around the diversity of trees and performs really well in densely packed clusters. As compared to using tree parameters, this method is more adaptable as it only suggests that the tree trunks have more points than any other section of the tree in a 2D plane.
+
+The image below demonstrate the heterogeneous and unpredictable nature of tree diversity, which makes this method more reliable than using parameters.
+
+![](media/examples/IMG_20230221_092402.jpg)
+
+Work in progress....
+
+---
 ## Acknowledgements
 
 I would like to express my sincere appreciation to my two internship supervisors, Daan Bloembergen and Nico de Graaff, as well as my university professors, Sander Oude Elberink and Michael Yang, for their invaluable guidance and support throughout the development of this project.Their extensive knowledge and experience in the field provided helped me to better understand the complexities of the project and achieve a successful outcome.
