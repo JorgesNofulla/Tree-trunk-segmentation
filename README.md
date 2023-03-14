@@ -74,7 +74,9 @@ The image below demonstrate the heterogeneous and unpredictable nature of tree d
 
 ![](media/examples/IMG_20230221_092402.jpg)
 
-Work in progress....
+Below is a manually checked cluster of trees that shows the accuraccy of our method. We expect this accuraccy to change by changing the parameters of the algorithm.
+It is also neccessary to mention that there is some inconsistency with the point cloud data while compared to the ground truth, so our assessment is not completely accurate.
+![](media/examples/Validation.png)
 
 ---
 ## Acknowledgements
