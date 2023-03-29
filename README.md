@@ -16,7 +16,6 @@ Below it's the output of a sample dataset taken from the city of amsterdam:
 The repository contains the full codes used and a sample data that can be used to test the code.
 
 
-1) [`resources`](./resources): Random nice resources, e.g. [`useful links`](./resources/README.md)
 1) [`media`](./media/examples/): Images used in this repository
 1) [`scripts`](./scripts): Folder with the full scripts of the tree trunks delineation code.
 1) [`Sample_test`](Sample_test.las): This is a small las file that can be used to test the code and get and output.
