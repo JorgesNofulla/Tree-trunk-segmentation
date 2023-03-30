@@ -80,6 +80,8 @@ It is also neccessary to mention that there is some inconsistency with the point
 ---
 ## Acknowledgements
 
+Author : [Jorges Nofulla ](https://www.linkedin.com/in/jorges-nofulla-5a3139223/)
+
 I would like to express my sincere appreciation to my two internship supervisors, Daan Bloembergen and Nico de Graaff, as well as my university professors, Sander Oude Elberink and Michael Yang, for their invaluable guidance and support throughout the development of this project.Their extensive knowledge and experience in the field provided helped me to better understand the complexities of the project and achieve a successful outcome.
 
 Our first part of the code, which clusters the trees is inspired by [Max-Hess](https://github.com/max-hess/GeometricNetworks) [![DOI](https://zenodo.org/badge/264818686.svg)](https://doi.org/10.5194/egusphere-egu21-4155 )
