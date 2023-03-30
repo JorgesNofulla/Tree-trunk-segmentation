@@ -20,7 +20,7 @@ The repository contains the full codes used and a sample data that can be used t
 1) [`scripts`](./scripts): Folder with the full scripts of the tree trunks delineation code.
 1) [`Sample_test`](Sample_test.las): This is a small las file that can be used to test the code and get and output.
 1) [`Requirements`](requirements.txt): The version of the libraries used in the code
-1) [`Project Report`](Project_report.pdf): The version of the libraries used in the code
+1) [`Project Report`](Project_Report.pdf): The version of the libraries used in the code
 
 ---
 ## Installation
