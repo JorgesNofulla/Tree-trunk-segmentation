@@ -80,7 +80,7 @@ It is also neccessary to mention that there is some inconsistency with the point
 ---
 ## Acknowledgements
 
-Author : [Jorges Nofulla ](https://www.linkedin.com/in/jorges-nofulla-5a3139223/)
+This repository was created by [Jorges Nofulla](https://www.linkedin.com/in/jorges-nofulla-5a3139223/) in a collaboration with [Amsterdam Intelligence](https://www.amsterdamintelligence.com/) for the [City of Amsterdam](https://www.amsterdam.nl/).
 
 I would like to express my sincere appreciation to my two internship supervisors, Daan Bloembergen and Nico de Graaff, as well as my university professors, Sander Oude Elberink and Michael Yang, for their invaluable guidance and support throughout the development of this project.Their extensive knowledge and experience in the field provided helped me to better understand the complexities of the project and achieve a successful outcome.
 
