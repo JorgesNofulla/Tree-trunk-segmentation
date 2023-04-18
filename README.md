@@ -3,7 +3,7 @@ This repository contains the code to segment individual tree trunks out of an li
 The algorithm uses simple libraries and makes full use of the point cloud data structure to ensure speed and efficenty in caclulations.
 
 
-![](media/examples/AHN_trees.PNG)
+![](media/examples/Trees_Amster.PNG)
 
 Below it's the output of a sample dataset taken from the city of amsterdam:
 
